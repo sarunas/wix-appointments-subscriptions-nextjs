@@ -143,3 +143,6 @@ const BenefitPrefix = () => (
     ></path>
   </svg>
 );
+
+// opt out static rendering because of https://github.com/vercel/next.js/issues/43077
+export const dynamic = 'force-dynamic';
